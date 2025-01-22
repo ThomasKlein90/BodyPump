@@ -17,5 +17,5 @@ After linking to the API library, the following code is all you need to embed a 
 
 <tableau-viz id="tableauViz"       
   src='https://public.tableau.com/views/Bodypump-StrengthinNumbers/01a-Trackoverallcomparison'     
-  height='600px' width='600px' toolbar='bottom' hide-tabs>
+  height='1100px' width='1400px' toolbar='bottom'>
 </tableau-viz>
