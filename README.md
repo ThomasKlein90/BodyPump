@@ -6,10 +6,10 @@ Check out my Tableau dashboard [here](https://public.tableau.com/app/profile/kle
 The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/BodyPump/blob/main/bodypump_full.ipynb), below is summary.
 
 
-<h2>Strength In Numbers - LesMills BODYPUMP</h2>
+## Strength In Numbers - LesMills BODYPUMP
 
-<h4>Count your reps</h4>
-<p>Fitness training generates data in many different ways. From measuring your heart rate or number
+#### Count your reps
+Fitness training generates data in many different ways. From measuring your heart rate or number
                         of steps, to estimating the number of calories expended
                         or the power generated or something simpler as the number of repetitions, sets or the weights
                         lifted, there are many ways of generating, measuring and
@@ -18,12 +18,10 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         this data and some apps and websited now even build and train model to provide their users with
                         a customized, tailor-made workout plan.
                         There is no denying it: fitness workouts are a numbers game.
-</p>
 <blockquote>There is no denying it: fitness workouts are a numbers game.</blockquote>
-<br>
 
-<h4>The LesMills BODYPUMP<sup>™</sup> fitness program</h4>
-<p>LesMills is a company, originally from New Zealand, designing various types of fitness programs
+#### The LesMills BODYPUMP<sup>™</sup> fitness program
+LesMills is a company, originally from New Zealand, designing various types of fitness programs
                         (cardio, HIIT, strength, yoga, etc.)
                         taught by instructors in gyms all over the world in the form of group classes.
                         BODYPUMP<sup>™</sup> is one of those programs. Usually in a 55mn class
@@ -41,10 +39,9 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         these new choregraphies before bringing them to their
                         members in their regularly scheduled classes. This helps to keep the program fresh while keeping
                         a certain level of standards.
-                    </p>
 
-<h4>My personal LesMills BODYPUMP<sup>™</sup> journey</h4>
-<p>I first walked in a LesMills class about 10 years ago, in 2015, while visiting friends in
+#### My personal LesMills BODYPUMP<sup>™</sup> journey
+I first walked in a LesMills class about 10 years ago, in 2015, while visiting friends in
                         Belgium. They brought me to their BODYATTACK<sup>™</sup> class
                         another program of the same group, this one focusing HIIT cardio. I struggled to even finish the
                         class... But I was hooked. Coming back home, I
@@ -56,10 +53,9 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         program (involving an initial training, a mentoring
                         program and a final exam). Since then I've been teaching classes at gyms in Hong Kong and now
                         have 3 weekly regular classes.
-                    </p>
 
-<h4>Data and project motivation</h4>
-<p>As mentioned before, there is a lot of interesting data generated around fitness in general and
+#### Data and project motivation
+As mentioned before, there is a lot of interesting data generated around fitness in general and
                         the BODYPUMP<sup>™</sup> program. I could be writing about
                         heart rate, fitness level, the weights used, etc. Instead I chose to focus on the program
                         itself. See, with 10 new tracks being released every 3
@@ -75,13 +71,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         difficulty of the moves and combos in the choregraphies.
                         Therefore, the project goal is about capturing and trying to objectify as much as possible
                         differences in levels of difficulty between releases.
-                    </p>
                     <blockquote>The project goal is about capturing and trying to objectify as much as possible
                         differences in levels of difficulty between releases.</blockquote>
-                    <br>
 
-<h4>Source of data: the BODYPUMP<sup>™</sup> choregraphy notes</h4>
-<p>I went looking for datasets on BODYPUMP<sup>™</sup> tracks, trying to obtain a neatly
+#### Source of data: the BODYPUMP<sup>™</sup> choregraphy notes
+I went looking for datasets on BODYPUMP<sup>™</sup> tracks, trying to obtain a neatly
                                 organized
                                 set of moves, repetitions (reps) and timings for as
                                 many tracks as possible but could not find any. I was going to have to create by own. As
@@ -96,12 +90,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                                 the same format (though not always) meaning it would be possible to capture and extract
                                 data
                                 from them and store them in a tabular format.
-                            </p>
-![Bodypump_choregraphy_notes](https://github.com/user-attachments/assets/4f886d3d-75dc-411a-aa1b-2e68269d0efb)
 
-<h6>Methods</h6>
-<p>The first part of the <a href="https://github.com/ThomasKlein90/BodyPump/blob/main/bodypump_full.ipynb
-                        target=" _blank">Jupyter Notebook</a> available on the GitHub repository linked above focuses
+<img src=https://github.com/user-attachments/assets/4f886d3d-75dc-411a-aa1b-2e68269d0efb alt="Bodypump_choregraphy_notes" height="300" />
+
+##### Methods
+The first part of the [Jupyter Notebook](https://github.com/ThomasKlein90/BodyPump/blob/main/bodypump_full.ipynb) is available on the GitHub repository linked above focuses
                         on
                         doing just that. Using 19 different choregraphy notes
                         (from releases ranging from #94 to #127), I wrote functions reading the pdf documents
@@ -126,11 +119,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                     combinations,
                     and renaming the moves to a consistent, fixed list of possibilities to allow for comparison.
                     Finally, I arrived at a table like the one below.
-                    </p>
-                    ![Bodypump_choregraphy_notes_translated_example](https://github.com/user-attachments/assets/ee69863e-bf68-46ae-aaa3-68815ed05f44)
+                    
+<img src="https://github.com/user-attachments/assets/ee69863e-bf68-46ae-aaa3-68815ed05f44" alt="Bodypump_choregraphy_notes_translated_example" height="150" />
 
-<h4>Adding personal information</h4>
-<p>While the data obtained above enables an objective comparison between tracks, I was also
+#### Adding personal information
+While the data obtained above enables an objective comparison between tracks, I was also
                         interested to add some personal touches.
                         <br>
                         First, I added my own intensity ratings to be able to
@@ -141,9 +134,7 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         has mostly kickbacks or one that is a mix of triceps pushups and dips? It is just not
                         possible.
                         Now, while the intensity ratings are obviously a personal perception and classification
-                        of intensity, they do allow for such comparisons. On the repository, the file
-                        <a href="https://github.com/ThomasKlein90/BodyPump/blob/main/move_intensity_assignment_v1.csv"
-                            target="_blank">'move_intensity_assignment_v1.csv'</a> shows the values chosen
+                        of intensity, they do allow for such comparisons. On the repository, the file ['move_intensity_assignment_v1.csv'](https://github.com/ThomasKlein90/BodyPump/blob/main/move_intensity_assignment_v1.csv), shows the values chosen
                         between 0 (lowest intensity) to 100 (highest). For example a triceps dip with a 2/2
                         tempo has an
                         intensity of 50, while a triceps pushup 1/1 gets a rating of 70 and a triceps press 4/4
@@ -163,16 +154,14 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         are therefore able to be used in
                         conjunction with the repetitions and intensity data of the corresponding tracks and workout
                         sessions calculated before.
-                    </p>
-
-<h4>Results and dashboard presentation</h4>
-<p>After compiling the data and generating csv files to use as datasources, I was able to present
+                        
+#### Results and dashboard presentation
+After compiling the data and generating csv files to use as datasources, I was able to present
                         the results of my findings as a Tableau dashboard.
-                        The dashboard is possible to <a href="https://public.tableau.com/app/profile/klein6166/viz/Bodypump-StrengthinNumbers/01a-Trackoverallcomparison
-                        target=" _blank">view on Tableau public</a>, or by <a href="https://github.com/ThomasKlein90/BodyPump/blob/main/Bodypump%20-%20Strength%20in%20Numbers.twbx
-                        target=" _blank">downloading the file</a> directly from the repository.
-<h5>01- Track overall comparison</h5>
-                    This first sheet (broken down in two for ease of read) compares tracks accross 4
+                        The dashboard is possible to [view on Tableau public](https://public.tableau.com/app/profile/klein6166/viz/Bodypump-StrengthinNumbers/01a-Trackoverallcomparison), or by [downloading the file](https://github.com/ThomasKlein90/BodyPump/blob/main/Bodypump%20-%20Strength%20in%20Numbers.twbx) directly from the repository.
+
+##### 01- Track overall comparison
+This first sheet (broken down in two for ease of read) compares tracks accross 4
                     different simple
                     metrics, overall, and within each muscle group:</p>
 <ul>
@@ -215,11 +204,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                             release #98 "Tribes" surges to rank #4 of the hardest tracks overall.
                         </li>
                             </ul>
-                            </p>
-![bodypump_track_overall_comparison](https://github.com/user-attachments/assets/3a4a8834-c70a-4144-8fdd-a96ce763ecb0)
-<h5>02- Track metrics analysis</h5>
-<p>
-                        This second sheet lets the user compare tracks, either by track type or by release, according to
+
+<img src="https://github.com/user-attachments/assets/3a4a8834-c70a-4144-8fdd-a96ce763ecb0" alt="bodypump_track_overall_comparison" height="450" />
+
+##### 02- Track metrics analysis
+This second sheet lets the user compare tracks, either by track type or by release, according to
                         the metrics described before. By default, the metric chosen is the track intensity per second,
                         but others can be selected.
                     <ul>
@@ -244,11 +233,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                             correlation.
                         </li>
                     </ul>
-                    </p>
-![bodypump_track_metrics_analysis](https://github.com/user-attachments/assets/1efab1b7-46be-4713-8ffc-90a634465b9f)
-<h5>03- Moves analysis</h5>
-<p>
-                        This third sheet goes down to the actual moves breakdown. Over all the releases, the BodyPump
+
+<img src="https://github.com/user-attachments/assets/1efab1b7-46be-4713-8ffc-90a634465b9f" alt="bodypump_track_metrics_analysis" height="250" />     
+
+##### 03- Moves analysis
+This third sheet goes down to the actual moves breakdown. Over all the releases, the BodyPump
                         choregraphies include many variations of the
                         same "move". A standing triceps extension is not exactly the same as a sitting one, a wide
                         pushup engages chest muscles a bit differently
@@ -279,11 +268,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                             shoulders track also involves deltoid fly for half of it.
                         </li>
                     </ul>
-                    </p>
-![bodypump_moves_analysis](https://github.com/user-attachments/assets/f7b74fc0-2392-4c97-a60c-97db5b8920dd)
-<h5>04- Make your own mix</h5>
-<p>
-                        In this sheet I wanted to showcase my dashboard building skills by bringing some interaction
+
+<img src="https://github.com/user-attachments/assets/f7b74fc0-2392-4c97-a60c-97db5b8920dd" alt="bodypump_moves_analysis" height="300" />     
+
+##### 04- Make your own mix
+In this sheet I wanted to showcase my dashboard building skills by bringing some interaction
                         with the user. If you are an instructor and you want
                         to use it to build your own mix of tracks for your next class, he is how I intended it:
                     <ol>
@@ -300,10 +289,9 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         <li>Finally, the last part shows the brekdown of the moves, both per track and the overall
                             total.</li>
                     </ol>
-                    </p>
 
-<h5>05- My mixes analysis</h5>
-<p>This last worksheet brings in the fitness data measured by my Polar watch like I mentioned it
+##### 05- My mixes analysis
+This last worksheet brings in the fitness data measured by my Polar watch like I mentioned it
                         before. I'm focusing here on a metric called "Cardio Load"
                         which is an aggregated score calculated by Polar for each workout session (based on duration,
                         average and max heart rate, and time spent in the 5
@@ -323,11 +311,11 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                         itself, not as accurate as other devices, the form of the day, how much sleep I had the night
                         before, the weight on the bar... Consider this more as a
                         thought exercise than a real consluive analysis!
-                    </p>
-![bodypump_strength_in_numbers_my_mixes_analysis](https://github.com/user-attachments/assets/3601aa50-5d40-41fc-bc88-a10169d8feb0)
 
-<h4>Conclusion and lessons learned</h6>
-<p>The lack of organized data about BodyPump track instructions ended up causing difficulties
+<img src="https://github.com/user-attachments/assets/3601aa50-5d40-41fc-bc88-a10169d8feb0" alt="bodypump_moves_analysis" height="250" />  
+
+#### Conclusion and lessons learned
+The lack of organized data about BodyPump track instructions ended up causing difficulties
                             and challenges to extract and create such
                             data for the task. The uneven presentation of the choregraphy notes, making the use of
                             custom functions unreliable, added even more complexity.
@@ -351,7 +339,7 @@ The whole Jupyter Notebook is available [here](https://github.com/ThomasKlein90/
                             fatigue point all the
                             while using light weights that non-gym people will feel more comfortable with. And that is
                             the true essence and success of BodyPump.
-                        </p>
+
 <blockquote>BodyPump workouts create conditions to let you work out to the
                             fatigue point all the
                             while using light weights that non-gym people will feel more comfortable with. And that is
